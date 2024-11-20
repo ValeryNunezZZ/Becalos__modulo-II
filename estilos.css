@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarjeta{
+    background-color: rgb(24, 145, 123);
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 40px 0 40px;
+
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-property: initial;
+}
+
+.tarjeta:hover{
+    rotate: 3deg;
+    transform: scale(0.9);
+    background-color: green;
+    box-shadow: inset 10px 10px 20px rgb(0, 104, 33), inset -5px -5px 15px rgb(255, 255, 255), 10px 10px 20px rgba(0, 0, 0, 0.245);
+}
+
+.img{
+    width: 60%;
+    height: 300px;
+    background-image: url(./img/pngtree-smile-dog-on-white-background-png-image_9160783.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#t1{
+    background-image: url(./img/ai-generated-cat-clip-art-free-png.webp);
+}
+
+#t2{
+    background-image: url(./img/pngtree-green-parrot-standing-on-the-branch-png-image_6633423.png);
+}
+
+#t3{
+    background-image: url(./img/hamster-with-ai-generated-free-png.webp);
+}
+
